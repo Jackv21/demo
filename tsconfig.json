@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "allowUnreachableCode": false,
+    "target": "es5",
+    "sourceMap": true,
+    "types": ["node"],
+    //"allowJs": true
+    //"types": [ "node" ],
+    "typeRoots": [ "node_modules/@types" ]
+    //"outFile": "./dist/app.js",
+
+  },
+  "include": [
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
