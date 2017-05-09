@@ -14,5 +14,4 @@ function config(routes, $stateProvider, $urlRouterProvider) {
 
         //angular-ui-router for multiple views
     routes.forEach($stateProvider.state);
-            //more states here.
 }
