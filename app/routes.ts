@@ -2,7 +2,7 @@ var routes = [
     {
         name: 'root',
         url: '/',
-        template: '<div>hello ll</div>'
+        template: '<div>TEST</div>'
     }
 ];
 
